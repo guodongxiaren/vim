@@ -1,5 +1,12 @@
 # 更新日志
 
+### 2020年3月28日更新
+- 自动安装脚本的路径更新。
+    - 原先raw.github.com开头的路径已经无法wget，改为raw.githubusercontent.com
+
+以下为原始update_log，感谢[ma6147](https://github.com/ma6174)
+--------
+
 ### 2013年6月10日更新
 
 - 增加javascript插件

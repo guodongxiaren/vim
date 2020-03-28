@@ -140,12 +140,12 @@ func SetTitle()
 		call append(line(".")+5, "")
 	endif
 	if expand("%:e") == 'cpp'
-		call append(line(".")+6, "#include<iostream>")
+		call append(line(".")+6, "#include <iostream>")
 		call append(line(".")+7, "using namespace std;")
 		call append(line(".")+8, "")
 	endif
 	if &filetype == 'c'
-		call append(line(".")+6, "#include<stdio.h>")
+		call append(line(".")+6, "#include <stdio.h>")
 		call append(line(".")+7, "")
 	endif
 	if expand("%:e") == 'h'
@@ -321,7 +321,8 @@ set backspace=2
 " 允许backspace和光标键跨越行边界
 set whichwrap+=<,>,h,l
 " 可以在buffer的任何地方使用鼠标（类似office中在工作区双击鼠标定位）
-set mouse=a
+"set mouse=a
+"set mouse-=a
 set selection=exclusive
 set selectmode=mouse,key
 " 通过使用: commands命令，告诉我们文件的哪一行被改变过
