@@ -22,7 +22,7 @@ fork自[ma6174/vim](https://github.com/ma6174/vim)
 - clone配置文件：`cd ~/ && git clone git://github.com/guodongxiaren/vim.git`
 - `mv ~/vim ~/.vim`
 - `mv ~/.vim/.vimrc ~/`
-- clone bundle 程序：`git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle`
+- clone bundle 程序：`git clone https://github.com/VundleVim/Vundle.vim ~/.vim/bundle/vundle`
 - 打开vim并执行bundle程序`:BundleInstall`
 - 重新打开vim即可看到效果
 
